@@ -1,8 +1,3 @@
-# Dicas
-
-- Por segurança servidores não devem responder a pings
-- Por cabos de rede trafegam 4 tipos de dados - vídeo,imagem,som e texto
-
 # Instalação do linux no virtual box
 
 https://www.debian.org/download
@@ -54,8 +49,11 @@ Driver generico instalar uma placa de rede generica na vm
 
 - /dev/sa
 
-
 # Anotações
+
+## Dicas
+- Por segurança servidores não devem responder a pings
+- Por cabos de rede trafegam 4 tipos de dados - vídeo,imagem,som e texto
 
 ## HDS
 - SATA 12Mb/s
@@ -63,7 +61,7 @@ Driver generico instalar uma placa de rede generica na vm
 - UEFI 500Mb/s +
 
 ## Sistemas operacionais
-### sobem de 4 formas
+Sobem de 4 formas
 - pendrive
 - rede
 - hd
@@ -87,11 +85,9 @@ desligar
 # Dicas Checkpoint
 conectar duas maquinas na rede pelo virtual box
 
-
 # Maldades
 
 - criptografar HD
 - windows bloqueado da pra quebrar rodando o linux no pendrive
 - desabilitar ipv6 se for fazer testes academicos
 - tstes academicos usar adaptador NAT na virtual box e vpns diferentes pro pc e pra maquina virtual depois apagar a maquina
-
