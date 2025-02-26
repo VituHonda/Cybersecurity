@@ -91,3 +91,44 @@ informações salvas pelos navegadores ficam salvas 180 dias
 Os user agents dos cabeçalhos são usados para aumentar os preços com base nas informações que o user agent salva
 
 Exemplo: modelo de celular, quantidade de bateria, quantidade de acessos
+
+## Storm-Breaker 
+github
+ve do celular: 
+geolocalização
+imagem
+audio
+
+# LINUX
+
+Quando o --help for muito grande digitar
+``` comando | less ```
+para aparecer o scroll
+
+mudar senha
+``` passwd ```
+
+adicionar usuário oculto 
+``` useradd ```
+
+adicionar usuário
+``` adduser ```
+
+ao usar ls -la ou ls -lha
+drwxr-xr-x
+
+permissoes
+d - dentro do hd
+rwx - usuario
+r-x - grupo
+r-x - outros
+
+r = read
+w = write
+x = execute
+
+criar arquivo
+cat > nomeDoArquivo
+
+escrever no arquivo
+echo "texto" > nomeDoArquivo
