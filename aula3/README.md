@@ -128,7 +128,10 @@ w = write
 x = execute
 
 criar arquivo
-cat > nomeDoArquivo
+> nomeDoArquivo
 
 escrever no arquivo
 echo "texto" > nomeDoArquivo
+
+ler arquivo
+cat nomeDoArquivo
