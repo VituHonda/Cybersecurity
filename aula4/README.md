@@ -57,3 +57,5 @@ python3 -m http.server 1234
 - configurar placa de rede é um requisito pro CP1
 - cp01:
 Abrir um arquivo txt com uma mensagem no navegador sem mostrar a msg
+
+Pra fazer isso entrar no usuario que esta o arquivo e ai tirar a permissao de leitura com chmod
