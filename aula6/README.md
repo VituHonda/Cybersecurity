@@ -1,3 +1,7 @@
+- ips das vms interna
+  192.168.100.10
+  192.168.100.20
+
 - instalar pacotes
 
 apt install curl
