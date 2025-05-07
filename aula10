@@ -26,3 +26,35 @@ BurpSuite
 127.0.0.1
 8080
 
+## Criar banco de dados
+
+apt update
+apt install mariadb-server mariadb-client
+
+- ligando o banco
+
+systemctl start mariadb
+
+- ativando o banco
+
+systemctl enable mariadb
+
+- acessar mariadb
+
+mysql -u root
+
+- criando banco dentro do sql
+
+CREATE DATABASE loginDB;
+
+- acessando banco BEM IMPORTANTE
+
+USER loginDB
+
+- criando tabela
+
+CREATE TABLE users (
+ id INT AUTO_INCREMENT PRIMARY KEY,
+ username VARCHAR(50) NOT NULL,
+ password VARCHAR(255) NOT NULL
+);
