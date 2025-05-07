@@ -1,0 +1,28 @@
+# Kali
+
+funciona ctrl v
+
+## enviando arquivos para o servidor
+
+"scp form_post.html aluno@192.168.10.20:/home/aluno"
+
+possivel especificar o lugar pra onde vai
+
+nao deu pra mandar direto pra /var/www/html por conta de permissao
+
+## movendo arquivos no servidor
+
+mv form_post.html /var/www/html
+
+## proxy
+
+instalar foxyproxy no mozila
+
+## configurando proxy
+
+option
+Add
+BurpSuite
+127.0.0.1
+8080
+
