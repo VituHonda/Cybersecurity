@@ -1,5 +1,5 @@
 ## Estudar
-CP3 -> Flag2 depende do trabalho (redirecionamento de porta local)
+CP3 -> Flag2 depende do trabalho (redirecionamento de porta local)\
 Não terá dicas, entregará apenas o IP
   (colocar a MV na mesma rede do servidor, mudar a config da placa de rede)
   
@@ -13,26 +13,21 @@ para não mostrar pela URL
 
 
 BurpSuit
-![Capture](https://github.com/user-attachments/assets/4f3ee12a-b06f-4381-8cd0-58526aea2a62)
+![alt text](image.png)
 
-
-![Capture](https://github.com/user-attachments/assets/e2abb6b3-5c2e-4ee1-9025-1f8dbcc2ca7c)
-
+![alt text](image-1.png)
 
 Posso alterar as informações e enviar pro servidor\
-![image](https://github.com/user-attachments/assets/c214d33d-c998-433b-9e6e-fe13ab125dbd)
+![alt text](image-2.png)
 
-
-Quanod madar login e senha tem que ir criptografado\
-![image](https://github.com/user-attachments/assets/6313b166-3027-48eb-b983-db0e8cb03d7a)
+Quando mandar login e senha tem que ir criptografado\
+![alt text](image-3.png)
 
 ** Ataque de força bruta deve usar: wordlist**
 
-![image](https://github.com/user-attachments/assets/937808fd-35eb-4067-9433-1d703a762fb2)
+![alt text](image-4.png)
 
 des zipar 
-![image](https://github.com/user-attachments/assets/d2dbb7ae-7d62-431f-a2e7-e5c605bbfb22)
+![alt text](image-5.png)
 
-![image](https://github.com/user-attachments/assets/f8a73343-ef2e-42e3-96ac-99e70b0b6963)
-
-
+![alt text](image-6.png)
