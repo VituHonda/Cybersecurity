@@ -49,7 +49,7 @@ CREATE DATABASE loginDB;
 
 - acessando banco BEM IMPORTANTE
 
-USER loginDB
+USE loginDB
 
 - criando tabela
 
@@ -58,3 +58,6 @@ CREATE TABLE users (
  username VARCHAR(50) NOT NULL,
  password VARCHAR(255) NOT NULL
 );
+
+INSERT INTO users (username, password) VALUES ('nome_do_usuario', 'senha_segura');
+
