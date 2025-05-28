@@ -3,12 +3,15 @@
 - INTERNA
 
 allow-hotplug eth0
+
 iface eth0 inet static
+
 address 192.168.10.10/24
 
 - BRIDGE
 
 allow-hotplug eth1
+
 iface eth1 inet dhcp
 
 # SSH
