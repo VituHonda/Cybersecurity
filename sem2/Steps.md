@@ -14,11 +14,15 @@
 
   ## Caminhos de pastas importantes
 
+  - WORDLISTS
+
   /usr/share/wordlists/metasploit
 
   http_default_user.txt
 
   http_default_pass.txt
+
+  rockyou.txt
 
   ## Possivel passo a passo
 
