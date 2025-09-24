@@ -47,5 +47,12 @@
   Se tiver outra porta aberta sera necessário fazer redirecionamento de portas local, então sair do servidor e:
 
   - `ssh -L portaLocal:localhost:portaRemota aluno@192.168.100.20`
-  
+ 
+    Depois de acessar a proxima porta tentar acessar o outro serviço colocando no navegador:
+
+  - `localhost:portaRemota`
+
+  OBS:
+  - Tomar cuidado para que o proxy não esteja ligado
+  - Tomar cuidado para não usar a mesma porta de um serviço ja usado
   
