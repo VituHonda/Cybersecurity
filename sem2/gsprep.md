@@ -1,4 +1,4 @@
-<img width="296" height="43" alt="image" src="https://github.com/user-attachments/assets/74d59ddb-0aa4-4acd-8e68-ce617d241d9c" /># Preparando ambiente para usar gobuster
+# Preparando ambiente para usar gobuster
 
 - apt update
 - apt install gobuster
