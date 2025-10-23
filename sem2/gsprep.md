@@ -28,5 +28,44 @@ sem vulnerabilidade
 
 - Encontrar portas abertas com nmap
 
+<img width="272" height="72" alt="Captura de tela 2025-10-23 194236" src="https://github.com/user-attachments/assets/9bae436b-0a16-4e73-b8e3-955d2f8f5dec" />
 
-  
+- RFI -> remote file inclusion
+
+Pegar backdoor (script que abre portas) -> php-reverse-shell.php transformar em uma imagem e jogar no servidor
+
+- Encontrando arquivo backdoor
+
+/usr/share/webshells
+
+<img width="346" height="200" alt="image" src="https://github.com/user-attachments/assets/fe2a935c-158e-4720-8d1c-d893a85820e1" />
+
+<img width="537" height="226" alt="image" src="https://github.com/user-attachments/assets/fc08bf53-a2da-43a5-ae99-4a2b52f1c8b1" />
+
+- Transformando backdoor em imagem
+
+cp php-reverse-shell.php revshell.php.jpg
+
+<img width="530" height="248" alt="image" src="https://github.com/user-attachments/assets/f8aef875-1748-4d0a-a60b-78dea617c51b" />
+
+- Vai fazer o contrário o backdoor vai fazer o servidor conectar no cliente
+
+Alterar aqui com o ip da máquina do cliente
+
+<img width="608" height="381" alt="image" src="https://github.com/user-attachments/assets/d0350389-945d-4131-be91-c7548ce1673d" />
+
+Dar upload no arquivo
+
+Fazer enumeração de pasta
+
+<img width="588" height="202" alt="image" src="https://github.com/user-attachments/assets/70172b18-42d3-48c9-93ec-a0b509a496a4" />
+
+Exemplo
+
+<img width="1279" height="604" alt="image" src="https://github.com/user-attachments/assets/1a6463a4-fcaa-479d-abb9-346a4cc0b47a" />
+
+<img width="901" height="585" alt="image" src="https://github.com/user-attachments/assets/8702534b-694a-43e2-8933-a5a144f5eec3" />
+
+Abrindo porta com netcat
+
+
