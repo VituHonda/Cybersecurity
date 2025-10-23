@@ -19,3 +19,14 @@
 cp03
 sem porta aberta
 sem vulnerabilidade
+
+# Dicas GS - KIRA + KALI
+
+- LFI
+
+<img width="1351" height="543" alt="image" src="https://github.com/user-attachments/assets/743a79b0-e493-4318-ad9c-55b83bfd1830" />
+
+- Encontrar portas abertas com nmap
+
+
+  
