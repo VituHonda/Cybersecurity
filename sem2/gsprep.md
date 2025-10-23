@@ -22,7 +22,7 @@ sem vulnerabilidade
 
 # Dicas GS - KIRA + KALI
 
-- LFI
+- LFI locate file inclusion
 
 <img width="1351" height="543" alt="image" src="https://github.com/user-attachments/assets/743a79b0-e493-4318-ad9c-55b83bfd1830" />
 
@@ -68,4 +68,33 @@ Exemplo
 
 Abrindo porta com netcat
 
+<img width="360" height="194" alt="image" src="https://github.com/user-attachments/assets/82d1c12b-802f-44a7-b52b-bb991958f928" />
+
+Para conseguir executar o backdoor é necessário usar a url falha
+
+<img width="909" height="139" alt="image" src="https://github.com/user-attachments/assets/96405b92-6960-4aa3-8775-d053e40a334d" />
+
+Alternativa colocar depois de = -> /uploads/revshell.php.jpg
+
+- Desabilitar pty -> isso ocultar pty do servidor -> oculta historico 
+
+python3 -c "import pty;pty.spawn('/bin/bash')"
+
+<img width="409" height="89" alt="image" src="https://github.com/user-attachments/assets/8a0d71b3-9486-4b8b-a69b-e36742757e4e" />
+
+Aqui revela 2 usuários -> www-data e bassam
+
+<img width="507" height="282" alt="image" src="https://github.com/user-attachments/assets/e0a857ea-2757-4cfc-b1ff-e87f1df38d9b" />
+
+User.txt possivelmente flag
+
+Em aplicações web normalmente estão dentro de /var/www/html
+
+<img width="527" height="193" alt="image" src="https://github.com/user-attachments/assets/ea41ae96-6ac1-4ed9-bbcf-c57de6826f5f" />
+
+<img width="642" height="77" alt="image" src="https://github.com/user-attachments/assets/0d5f620d-fb1c-43c9-8251-edabe4307990" />
+
+Entrar no usuário bassam
+
+<img width="579" height="101" alt="image" src="https://github.com/user-attachments/assets/5fc4b5e3-6bd8-4509-a6fa-3bfb415a5756" />
 
