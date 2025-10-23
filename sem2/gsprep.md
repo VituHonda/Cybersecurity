@@ -98,3 +98,24 @@ Entrar no usuário bassam
 
 <img width="579" height="101" alt="image" src="https://github.com/user-attachments/assets/5fc4b5e3-6bd8-4509-a6fa-3bfb415a5756" />
 
+# PARABENS ENTROU NO USUARIO NORMAL - FALTA O ROOT
+
+Entrando no usuário root
+
+Tenta entrar no root e usando senha do bassam e ele avisa o comando usado pelo usuário que passa pelo root
+
+<img width="668" height="208" alt="image" src="https://github.com/user-attachments/assets/484e0600-a1e7-4ca0-8833-cf9d6dbe5a14" />
+
+### Falha de segurança
+
+https://gtfobins.github.io/
+
+https://gtfobins.github.io/gtfobins/find/
+
+<img width="670" height="201" alt="image" src="https://github.com/user-attachments/assets/74bdaca3-91a9-4c77-9219-756206b0d266" />
+
+entrar no root e achar a flag
+
+<img width="99" height="106" alt="image" src="https://github.com/user-attachments/assets/d819e1e5-d6a2-462c-be52-64bda4ffa1eb" />
+
+com cat abre a flag
